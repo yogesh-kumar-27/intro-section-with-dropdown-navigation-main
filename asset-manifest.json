@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/intro-section-with-dropdown-navigation-main/static/css/main.0c90fea5.css",
+    "main.js": "/intro-section-with-dropdown-navigation-main/static/js/main.6f4ba903.js",
+    "static/js/787.6bff33b0.chunk.js": "/intro-section-with-dropdown-navigation-main/static/js/787.6bff33b0.chunk.js",
+    "static/media/image-hero-desktop.png": "/intro-section-with-dropdown-navigation-main/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/image-hero-mobile.png": "/intro-section-with-dropdown-navigation-main/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/client-databiz.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/intro-section-with-dropdown-navigation-main/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/client-maker.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/client-meet.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/client-audiophile.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/intro-section-with-dropdown-navigation-main/index.html",
+    "main.0c90fea5.css.map": "/intro-section-with-dropdown-navigation-main/static/css/main.0c90fea5.css.map",
+    "main.6f4ba903.js.map": "/intro-section-with-dropdown-navigation-main/static/js/main.6f4ba903.js.map",
+    "787.6bff33b0.chunk.js.map": "/intro-section-with-dropdown-navigation-main/static/js/787.6bff33b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c90fea5.css",
+    "static/js/main.6f4ba903.js"
+  ]
+}
