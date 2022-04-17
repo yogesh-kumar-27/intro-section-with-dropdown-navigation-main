@@ -1,6 +1,7 @@
+
 {
-  "name": "intro-section-with-dropdown-navigation-main",
   "homepage": "https://myusername.github.io/intro-section-with-dropdown-navigation-main",
+  "name": "intro-section-with-dropdown-navigation-main",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
