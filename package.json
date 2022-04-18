@@ -1,4 +1,3 @@
-
 {
   "homepage": "https://yogesh-kumar-27.github.io/intro-section-with-dropdown-navigation-main",
   "name": "intro-section-with-dropdown-navigation-main",
@@ -12,6 +11,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.1",
+    "scrollreveal": "^4.0.9",
     "scss": "^0.2.4",
     "web-vitals": "^2.1.0"
   },

@@ -72,10 +72,10 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1000;
   padding: 3rem 2%;
 
   display: flex;
@@ -93,23 +93,16 @@ body {
       }
     }
   }
- .hidden{
+  .hidden {
     display: none;
- }
-
-}
-a {
-  font-size: 1.9rem;
-  color: $Medium-Gray;
-  display: inline-flex;
-  margin: 0 2rem;
-  margin-right: 3rem;
-  i {
-    // font-size: 1.5rem;
-    margin-left: 1rem;
   }
-  &:hover {
-    color: $Almost-Black;
+}
+.hidden2 {
+  a{
+    font-size: 1.9rem;
+    color: $Medium-Gray;
+    display: inline-flex;
+    margin: 0 2rem;
   }
 }
 .btnn {
@@ -129,17 +122,23 @@ a {
   }
 }
 
-#menu-btn {
+.nav_bg{
+  position: fixed;
+  background: aliceblue;
+  transition: 1s ease-in-out;
+}
 
-   padding: 1rem 1.5rem;
-   border-radius: 0.5rem;
-   color:$Almost-Black;
-   cursor: pointer;
-   font-size: 3rem;
-   display: none;
- }
+#menu-btn {
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: $Almost-Black;
+  cursor: pointer;
+  font-size: 3rem;
+  display: none;
+}
 .banner {
   @include flex(center);
+  // margin-top: 10rem;
   padding-left: 8%;
   .left {
     flex: 1 1 42rem;
@@ -199,40 +198,38 @@ a {
     text-align: center;
   }
   #menu-btn {
-   display: inline-block;
-   z-index: 1;
+    display: inline-block;
+    z-index: 1;
   }
-    .header {
-      .hidden2{
-         display: none;
+  .header {
+    .hidden2 {
+      display: none;
+    }
+    .navbar {
+      position: absolute;
+      top: 99%;
+      left: 50%;
+      right: 0%;
+      height: 100vh;
+      padding: 2rem;
+      background: $Almost-White;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
+      box-shadow: -1px 10px 167px 0px rgba(0, 0, 0, 0.75);
+      &.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
       }
-      .navbar {
-        position: absolute;
-        top:99%;
-        left: 50%;
-        right: 0%;
-        height: 100vh;
-        padding: 2rem;
-        background: $Almost-White;
-        display: flex;
-         flex-direction: column;
-         justify-content: center;
-         align-items: center;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        box-shadow: -1px 10px 167px 0px rgba(0, 0, 0, 0.75);
-        &.active {
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        }
-        a{
-           font-size: 2rem;
-           padding: 2.5rem;
-        }
-        .hidden{
-         display: initial;
+      a {
+        font-size: 2rem;
+        padding: 2.5rem;
       }
-     
+      .hidden {
+        display: initial;
       }
-    
+    }
   }
 
   .banner {

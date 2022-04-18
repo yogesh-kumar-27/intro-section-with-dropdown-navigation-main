@@ -34,19 +34,19 @@ const Header = () => {
       <nav className="navbar">
         <a href="#home" className="drop">
           Features{"  "}
-          {active ? (
+          {/* {active ? (
             <i className="fas fa-angle-down"></i>
           ) : (
             <i className="fas fa-angle-up"></i>
-          )}
+          )} */}
         </a>
         <a href="#Company">
           Company{" "}
-          {active ? (
+          {/* {active ? (
             <i className="fas fa-angle-down"></i>
           ) : (
             <i className="fas fa-angle-up"></i>
-          )}
+          )} */}
         </a>
         <a href="#Careers">Careers</a>
         <a href="#about">About</a>

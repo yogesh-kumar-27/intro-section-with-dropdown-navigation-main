@@ -55,7 +55,6 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,6 +64,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  z-index: 1000;
   padding: 3rem 2%;
   display: flex;
   align-items: center;
@@ -99,22 +99,13 @@ body {
   display: none;
 }
 
-a {
+.hidden2 a {
   font-size: 1.9rem;
   color: dimgray;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   margin: 0 2rem;
-  margin-right: 3rem;
-}
-
-a i {
-  margin-left: 1rem;
-}
-
-a:hover {
-  color: #141414;
 }
 
 .btnn {
@@ -134,6 +125,13 @@ a:hover {
 .btnn:hover {
   color: #141414;
   border-color: #141414;
+}
+
+.nav_bg {
+  position: fixed;
+  background: aliceblue;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 #menu-btn {
@@ -258,8 +256,8 @@ a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    -webkit-clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
+            clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%);
     -webkit-box-shadow: -1px 10px 167px 0px rgba(0, 0, 0, 0.75);
             box-shadow: -1px 10px 167px 0px rgba(0, 0, 0, 0.75);
   }
