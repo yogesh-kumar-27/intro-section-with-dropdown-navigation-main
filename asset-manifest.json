@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/intro-section-with-dropdown-navigation-main/static/css/main.0c90fea5.css",
-    "main.js": "/intro-section-with-dropdown-navigation-main/static/js/main.6f4ba903.js",
+    "main.css": "/intro-section-with-dropdown-navigation-main/static/css/main.a1cb2a0a.css",
+    "main.js": "/intro-section-with-dropdown-navigation-main/static/js/main.960bf705.js",
     "static/js/787.6bff33b0.chunk.js": "/intro-section-with-dropdown-navigation-main/static/js/787.6bff33b0.chunk.js",
     "static/media/image-hero-desktop.png": "/intro-section-with-dropdown-navigation-main/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-hero-mobile.png": "/intro-section-with-dropdown-navigation-main/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
@@ -11,12 +11,12 @@
     "static/media/client-meet.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
     "static/media/client-audiophile.svg": "/intro-section-with-dropdown-navigation-main/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
     "index.html": "/intro-section-with-dropdown-navigation-main/index.html",
-    "main.0c90fea5.css.map": "/intro-section-with-dropdown-navigation-main/static/css/main.0c90fea5.css.map",
-    "main.6f4ba903.js.map": "/intro-section-with-dropdown-navigation-main/static/js/main.6f4ba903.js.map",
+    "main.a1cb2a0a.css.map": "/intro-section-with-dropdown-navigation-main/static/css/main.a1cb2a0a.css.map",
+    "main.960bf705.js.map": "/intro-section-with-dropdown-navigation-main/static/js/main.960bf705.js.map",
     "787.6bff33b0.chunk.js.map": "/intro-section-with-dropdown-navigation-main/static/js/787.6bff33b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c90fea5.css",
-    "static/js/main.6f4ba903.js"
+    "static/css/main.a1cb2a0a.css",
+    "static/js/main.960bf705.js"
   ]
 }
